@@ -58,68 +58,39 @@
 #  (ділення на нуль і т.д.). Фантазія та «дизайн» меню – ціниться та вітається!!!
 # Примітка! Кожна арифметична операція описується окремою функцією. Побудова самого меню також винесена в окрему функцію
 
-# print("1.Калькулятор \n "'2.Степені \n ''3.Про калькулятор')
-# a = int(input("Виберіть фукнкцію: "))
-# if a == 1:
-#     x = float(input("Введіть перше число: "))
-#     y = float(input("Введіть друге число: "))
-#     operation = input('Введіть знак операції: ')
-#     result = None
-#     if operation == "+":
-#         result = x + y
-#     elif operation == '-':
-#         result = x - y
-#     elif operation == '*':
-#         result = x * y
-#     elif (operation == "/") and (y != 0):
-#         result = x / y
-#     else:
-#         print("Ви поламали калькулятор, перезапустіть його")
-#     print("Результат: ", result)
 
-# elif a == 2:
-#     b = float(input("Введіть число, яке хочете піднести до степеня: "))
-#     c = float(input("Введіть степінь: "))
-#     some = b ** c
-#     print(some)
-# elif a == 3:
-#     print("Версія: v1.0 \n ""©BOMBA Production \n ""vlad yusenko")
+# def add_num():
+#     a = int(input("ведіть першу цифру:"))
+#     b = int(input("ведіть другу цифру:"))
+#     print(a+b)
+
+
+# def subst_num():
+#     a = int(input("ведіть першу цифру:"))
+#     b = int(input("ведіть другу цифру:"))
+#     print(a-b)
+
+
+# def mult_num():
+#     a = int(input("Eведіть першу цифру"))
+#     b = int(input("ведіть другу цифру:"))
+#     print(a*b)
+
+
+# def div_num():
+#     a = int(input("ведіть першу цифру"))
+#     b = int(input("ведіть другу цифру:"))
+#     print(a/b)
+
+
+# calc = input("1 - додавання, 2 - віднімання, 3 - множення, 4 - ділення: ")
+# if calc == "1":
+#     add_num()
+# elif calc == "2":
+#     subst_num()
+# elif calc == "3":
+#     mult_num()
+# elif calc == "4":
+#     div_num()
 # else:
-#     print('eroor тут тільки 3 можливих функції!!!')
-
-
-def add_num():
-    a = int(input("ведіть першу цифру:"))
-    b = int(input("ведіть другу цифру:"))
-    print(a+b)
-
-
-def subst_num():
-    a = int(input("ведіть першу цифру:"))
-    b = int(input("ведіть другу цифру:"))
-    print(a-b)
-
-
-def mult_num():
-    a = int(input("Eведіть першу цифру"))
-    b = int(input("ведіть другу цифру:"))
-    print(a*b)
-
-
-def div_num():
-    a = int(input("ведіть першу цифру"))
-    b = int(input("ведіть другу цифру:"))
-    print(a/b)
-
-
-calc = input("1 - додавання, 2 - віднімання, 3 - множення, 4 - ділення: ")
-if calc == "1":
-    add_num()
-elif calc == "2":
-    subst_num()
-elif calc == "3":
-    mult_num()
-elif calc == "4":
-    div_num()
-else:
-    print("eror")
+#     print("eror")

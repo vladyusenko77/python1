@@ -47,29 +47,25 @@ import random
 
 # масив з 7 елементів типу int. Визначити суму парних елементів масиву
 
-arr = []
+# def zapov(a):
+#     for i in range(0, 7):
+#         a.append(random.randrange(1, 50))
+#     return a
 
+# def parn(a):
+#     parni = 0
+#     kilk = 0
+#     for item in a:
+#         if item % 2 == 0:
+#             parni += item
+#             kilk += 1
+#             print("Parni => ", item)
+#     print("Kilkist parnyh => ", kilk)
+#     print("Suma parnyh => ", parni)
 
-def fill_arr(arr):
-    i = 0
-    while i < 7:
-        arr.append(random.randint(-12, 50))
-        i += 1
-
-
-def vlad(arr):
-    n = 0
-    z = 0
-    while n != 55:
-        if n % 2 == 0:
-            z += 0
-        else:
-            z += 0
-
-
-fill_arr(arr)
-vlad(arr)
-print("сума парних", z)
+# zsev = []
+# zapov(zsev)
+# parn(zsev)
 
 # 3.Дано масив А. Скопіювати елементи масиву А у масив В.
 # import copy
